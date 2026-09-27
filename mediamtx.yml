@@ -1,0 +1,16 @@
+logLevel: warn
+rtsp: yes
+rtspAddress: 127.0.0.1:8554
+rtspTransports: [tcp]
+moq: no
+rtmp: no
+hls: no
+srt: no
+webrtc: yes
+webrtcAddress: 127.0.0.1:8889
+webrtcLocalUDPAddress: :8189
+webrtcLocalTCPAddress: :8189
+webrtcAdditionalHosts: []
+paths:
+  live:
+    source: publisher

@@ -1,0 +1,29 @@
+# Local credentials and configuration
+.session-key
+.env
+.env.*
+__omp_shell(".env.example")
+*.pem
+*.key
+*.keystore
+bridge-token.txt
+.private/
+# Runtime data and recordings
+verification/
+.service.lock
+*.pid
+*.log
+*.h264
+*.hevc
+*.mp4
+*.mov
+*.ts
+*.m3u8
+*.bin
+# Generated outputs
+reader
+build/
+dist/
+__pycache__/
+*.py[cod]
+.DS_Store
